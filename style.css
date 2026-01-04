@@ -1,0 +1,165 @@
+/* ===== Layout geral ===== */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ===== Barras com divisões ===== */
+.linha-barra {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.bar {
+  display: flex;
+  gap: 2px;
+  margin-left: 10px;
+}
+
+.divisao {
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+.quantidade {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* ===== Botões de opções ===== */
+.opcoes {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.opcao {
+  flex: 1 1 40%;
+  padding: 10px;
+  background-color: #87cefa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.opcao:hover {
+  background-color: #4682b4;
+  color: white;
+}
+
+/* ===== Resultado e pontuação ===== */
+#resultado {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#pontuacao {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ===== Botão reiniciar ===== */
+.reiniciar {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #32cd32;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.reiniciar:hover {
+  background-color: #228b22;
+}
+
+/* ===== Confetes ===== */
+.confetes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.confete {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  animation: cair 3s linear forwards;
+}
+
+@keyframes cair {
+  from { transform: translateY(-10px); opacity: 1; }
+  to { transform: translateY(100vh); opacity: 0; }
+}
+
+/* ===== Responsividade para telas pequenas ===== */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .label {
+    width: 80px;
+    font-size: 14px;
+  }
+
+  .divisao {
+    width: 15px;
+    height: 15px;
+  }
+
+  .quantidade {
+    font-size: 14px;
+  }
+
+  .opcao {
+    flex: 1 1 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #resultado, #pontuacao {
+    font-size: 16px;
+  }
+}

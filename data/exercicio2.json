@@ -1,0 +1,15 @@
+{
+  "historia": "Na cantina da escola, os alunos escolheram suas frutas favoritas.",
+  "pergunta": "Qual fruta foi a menos escolhida?",
+  "animais": [
+    { "nome": "Maçã", "quantidade": 5 },
+    { "nome": "Banana", "quantidade": 8 },
+    { "nome": "Uva", "quantidade": 2 },
+    { "nome": "Laranja", "quantidade": 4 }
+  ],
+  "respostaCorreta": "Uva",
+  "feedback": {
+    "correto": "Excelente! Você está ficando craque!",
+    "errado": "Não foi dessa vez, tente de novo!"
+  }
+}

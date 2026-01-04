@@ -1,0 +1,15 @@
+{
+  "historia": "Os alunos escolheram seus animais preferidos do zoológico.",
+  "pergunta": "Qual animal teve menos votos?",
+  "animais": [
+    { "nome": "Leão", "quantidade": 6 },
+    { "nome": "Elefante", "quantidade": 5 },
+    { "nome": "Girafa", "quantidade": 2 },
+    { "nome": "Macaco", "quantidade": 7 }
+  ],
+  "respostaCorreta": "Girafa",
+  "feedback": {
+    "correto": "Muito bem! Você acertou!",
+    "errado": "Não foi dessa vez, tente novamente."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "historia": "Os alunos escolheram suas comidas favoritas no almoço da escola.",
+  "pergunta": "Qual comida teve 7 votos?",
+  "animais": [
+    { "nome": "Pizza", "quantidade": 7 },
+    { "nome": "Hambúrguer", "quantidade": 5 },
+    { "nome": "Macarrão", "quantidade": 8 },
+    { "nome": "Salada", "quantidade": 2 }
+  ],
+  "respostaCorreta": "Pizza",
+  "feedback": {
+    "correto": "Boa escolha! Você acertou!",
+    "errado": "Ops, olhe de novo para o gráfico."
+  }
+}

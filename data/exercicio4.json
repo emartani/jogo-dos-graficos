@@ -1,0 +1,15 @@
+{
+  "historia": "Na biblioteca, os alunos escolheram os tipos de livros que mais gostam.",
+  "pergunta": "Qual tipo de livro foi o mais popular?",
+  "animais": [
+    { "nome": "Aventura", "quantidade": 7 },
+    { "nome": "Mistério", "quantidade": 4 },
+    { "nome": "Fantasia", "quantidade": 9 },
+    { "nome": "História", "quantidade": 3 }
+  ],
+  "respostaCorreta": "Fantasia",
+  "feedback": {
+    "correto": "Fantástico! Você acertou!",
+    "errado": "Ops, olhe de novo para o gráfico."
+  }
+}

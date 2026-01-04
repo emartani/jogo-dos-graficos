@@ -1,0 +1,15 @@
+{
+  "historia": "Os alunos votaram em suas cores favoritas para pintar a sala.",
+  "pergunta": "Qual cor ficou em segundo lugar?",
+  "animais": [
+    { "nome": "Azul", "quantidade": 9 },
+    { "nome": "Verde", "quantidade": 6 },
+    { "nome": "Amarelo", "quantidade": 3 },
+    { "nome": "Vermelho", "quantidade": 5 }
+  ],
+  "respostaCorreta": "Verde",
+  "feedback": {
+    "correto": "Boa! Você acertou!",
+    "errado": "Quase! Veja o gráfico com atenção."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "historia": "Na aula de artes, os alunos escolheram suas atividades favoritas.",
+  "pergunta": "Qual atividade teve mais votos?",
+  "animais": [
+    { "nome": "Pintura", "quantidade": 10 },
+    { "nome": "Desenho", "quantidade": 6 },
+    { "nome": "Escultura", "quantidade": 3 },
+    { "nome": "Colagem", "quantidade": 4 }
+  ],
+  "respostaCorreta": "Pintura",
+  "feedback": {
+    "correto": "Incrível! Você acertou!",
+    "errado": "Ops, tente novamente!"
+  }
+}

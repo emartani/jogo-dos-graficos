@@ -1,0 +1,15 @@
+{
+  "historia": "Na aula de música, os alunos escolheram seus instrumentos favoritos.",
+  "pergunta": "Qual instrumento ficou em primeiro lugar?",
+  "animais": [
+    { "nome": "Violão", "quantidade": 9 },
+    { "nome": "Piano", "quantidade": 6 },
+    { "nome": "Bateria", "quantidade": 4 },
+    { "nome": "Flauta", "quantidade": 3 }
+  ],
+  "respostaCorreta": "Violão",
+  "feedback": {
+    "correto": "Você mandou bem!",
+    "errado": "Ops, tente novamente!"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "historia": "Na festa da escola, os alunos escolheram seus doces favoritos.",
+  "pergunta": "Qual doce foi escolhido por 8 alunos?",
+  "animais": [
+    { "nome": "Chocolate", "quantidade": 8 },
+    { "nome": "Bala", "quantidade": 4 },
+    { "nome": "Pirulito", "quantidade": 6 },
+    { "nome": "Biscoito", "quantidade": 2 }
+  ],
+  "respostaCorreta": "Chocolate",
+  "feedback": {
+    "correto": "Delícia! Você acertou!",
+    "errado": "Ops, confira o gráfico novamente."
+  }
+}

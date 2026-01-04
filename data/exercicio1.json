@@ -1,0 +1,16 @@
+{
+  "historia": "A professora Gabriela perguntou aos alunos qual é o animal de estimação preferido.",
+  "pergunta": "Qual animal teve mais votos?",
+  "animais": [
+    { "nome": "Gato", "quantidade": 6 },
+    { "nome": "Cachorro", "quantidade": 7 },
+    { "nome": "Peixe", "quantidade": 3 },
+    { "nome": "Porquinho-da-índia", "quantidade": 4 },
+    { "nome": "Coelho", "quantidade": 1 }
+  ],
+  "respostaCorreta": "Cachorro",
+  "feedback": {
+    "correto": "Muito bem! Você acertou!",
+    "errado": "Ops, tente novamente!"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "historia": "Durante a aula de educação física, os alunos escolheram seus esportes favoritos.",
+  "pergunta": "Qual esporte teve 5 votos?",
+  "animais": [
+    { "nome": "Futebol", "quantidade": 10 },
+    { "nome": "Basquete", "quantidade": 5 },
+    { "nome": "Vôlei", "quantidade": 7 },
+    { "nome": "Natação", "quantidade": 3 }
+  ],
+  "respostaCorreta": "Basquete",
+  "feedback": {
+    "correto": "Show! Você acertou!",
+    "errado": "Não foi dessa vez, tente novamente."
+  }
+}
