@@ -6,6 +6,13 @@ let totalExercicios = 10;
 const somAcerto = new Audio("assets/acerto.mp3");
 const somErro = new Audio("assets/erro.mp3");
 
+// Iniciar jogo ao clicar no botão
+document.getElementById("iniciar").addEventListener("click", () => {
+  document.getElementById("iniciar").style.display = "none"; // esconde botão iniciar
+  document.getElementById("proximo").style.display = "inline-block"; // mostra botão próximo
+  carregarExercicio(exercicioAtual);
+});
+
 async function carregarExercicio(numero) {
   try {
     const response = await fetch(`data/exercicio${numero}.json`);
@@ -38,8 +45,10 @@ async function carregarExercicio(numero) {
       <p id="pontuacao">Pontuação: ${pontuacao} / ${totalExercicios}</p>
     `;
 
-    // 🔊 Ler história e pergunta
-    lerTexto(dados.historia + ". " + dados.pergunta);
+    // 🔊 Ler história e pergunta (com cancel e delay para garantir execução)
+    setTimeout(() => {
+      lerTexto(dados.historia + ". " + dados.pergunta);
+    }, 300);
 
   } catch (error) {
     console.error("Erro ao carregar exercício:", error);
@@ -88,6 +97,7 @@ function reiniciarJogo() {
 
 // 🔊 Função para ler texto em voz alta
 function lerTexto(texto) {
+  speechSynthesis.cancel(); // cancela falas anteriores
   const utterance = new SpeechSynthesisUtterance(texto);
   utterance.lang = "pt-BR"; // voz em português
   speechSynthesis.speak(utterance);
@@ -97,5 +107,3 @@ document.getElementById("proximo").addEventListener("click", () => {
   exercicioAtual = exercicioAtual < totalExercicios ? exercicioAtual + 1 : 1;
   carregarExercicio(exercicioAtual);
 });
-
-carregarExercicio(exercicioAtual);
